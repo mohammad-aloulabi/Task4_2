@@ -30,7 +30,7 @@ nav {
 
 .container svg {
     font-size: 60px;
-    color: blue;
+    color: rgb(104, 157, 248);
 }
 
 
@@ -44,6 +44,26 @@ nav {
 
 .instructor img {
     top: -50px
+}
+
+.circle1 {
+    width: 60px;
+    height: 60px;
+
+}
+
+.circle-a {
+    width: 70px;
+    height: 70px;
+}
+
+
+.card-icon {
+    width: 30px;
+
+    top: 2px;
+    left: 13px;
+
 }
 
 .cheack {
@@ -72,6 +92,13 @@ nav {
 
 .about-us img {
     width: 500px;
+}
+
+.second-part {
+    position: relative;
+    top: 110px;
+    left: 100px;
+
 }
 
 
@@ -104,6 +131,7 @@ nav {
 
 
 
+
 @media screen and (max-width:992px) {
     .bar {
         justify-content: center !important;
@@ -116,8 +144,17 @@ nav {
     }
 
     .my-h1 {
-        width: max-content;
-        font-size: small;
-
+        width: max-content !important;
+        font-size: 20px !important;
+        ;
     }
+
+    .news-res {
+        width: max-content;
+    }
+
+    .about-us {
+        margin: 0 auto !important;
+    }
+
 }
