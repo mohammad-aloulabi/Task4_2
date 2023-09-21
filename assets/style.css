@@ -38,6 +38,8 @@ nav {
     width: 300px;
 }
 
+/* -----------------instructor----------------- */
+
 .instructor {
     margin: 150px 0;
 }
@@ -45,6 +47,8 @@ nav {
 .instructor img {
     top: -50px
 }
+
+/* ----------------------------courses---------------------- */
 
 .circle1 {
     width: 60px;
@@ -79,37 +83,29 @@ nav {
     height: 100vh;
 }
 
-.about-info {
-    width: 300px;
-}
+/* ------------------aboutus------------------- */
 
-.about-us {
-    padding: 0 100px;
 
-    /* gap: 100px; */
-
-}
-
-.about-us img {
+.sec-img {
     width: 500px;
-}
-
-.second-part {
     position: relative;
-    top: 110px;
-    left: 100px;
-
+    top: 70px;
+    left: 80px;
+    z-index: 2;
 }
-
 
 .img-shadow {
-    width: 500px;
-    height: 351px;
     background-color: rgb(182, 213, 250);
+    width: 500px;
+    height: 320px;
     position: relative;
-    bottom: 375px;
-    left: 100px
+    bottom: 320px;
+    left: 220px;
+
 }
+
+/* ---------------------------------------- */
+
 
 .format {
     margin-top: 60px;
@@ -118,6 +114,8 @@ nav {
 .format img {
     z-index: 1;
 }
+
+/* ---------------------------------- */
 
 .img-crds {
 
@@ -128,7 +126,6 @@ nav {
     width: 60px;
 
 }
-
 
 
 
@@ -145,7 +142,7 @@ nav {
 
     .my-h1 {
         width: max-content !important;
-        font-size: 20px !important;
+        font-size: 15px !important;
         ;
     }
 
@@ -153,8 +150,16 @@ nav {
         width: max-content;
     }
 
-    .about-us {
-        margin: 0 auto !important;
+    .sec-img {
+        width: 200px;
+        margin: auto;
+        top: 0px;
+        left: 0px;
+        text-align: center;
+    }
+
+    .img-shadow {
+        display: none;
     }
 
 }
