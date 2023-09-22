@@ -35,7 +35,7 @@ nav {
 
 
 .my-card {
-    width: 300px;
+    max-width: 300px;
 }
 
 /* -----------------instructor----------------- */
@@ -144,6 +144,10 @@ nav {
         width: max-content !important;
         font-size: 15px !important;
         ;
+    }
+
+    .courses {
+        margin-top: 20px;
     }
 
     .news-res {
